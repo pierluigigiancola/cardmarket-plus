@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "CardMarket Plus",
+  "description": "Add functionality to cardmarket site such as export wants, remember the last wantlist used and many more",
+  "version": "0.0.1",
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "images/icon-128.png"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/export-button.js"],
+      "matches": ["https://www.cardmarket.com/*/Wants/*"]
+    }
+  ]
+}
