@@ -7,6 +7,7 @@
     "default_popup": "hello.html",
     "default_icon": "images/icon-128.png"
   },
+  "permissions": ["storage"],
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
@@ -17,6 +18,10 @@
     {
       "js": ["scripts/export-button.js"],
       "matches": ["https://www.cardmarket.com/*/Wants/*"]
+    },
+    {
+      "js": ["scripts/last-used-wantlist.js"],
+      "matches": ["https://www.cardmarket.com/*/Products/Singles/*"]
     }
   ]
 }
