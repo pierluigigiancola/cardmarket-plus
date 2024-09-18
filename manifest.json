@@ -22,6 +22,10 @@
     {
       "js": ["scripts/last-used-wantlist.js"],
       "matches": ["https://www.cardmarket.com/*/Products/Singles/*"]
+    },
+    {
+      "js": ["scripts/export-order.js"],
+      "matches": ["https://www.cardmarket.com/*/Orders/*"]
     }
   ]
 }
