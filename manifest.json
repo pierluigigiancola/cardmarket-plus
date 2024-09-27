@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "CardMarket Plus",
   "description": "Add functionality to cardmarket site such as export wants, remember the last wantlist used and many more",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "action": {
     "default_popup": "hello.html",
     "default_icon": "images/icon-128.png"
